@@ -1,40 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi lista v:</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css" />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+ <script type="text/javascript"  src="GenerateElements.js" type="module"></script>
+ <script type="text/javascript"   src="index.js" type="module"></script>
+ 
+  <!-- <script type="text/javascript"   src="./indexFinal.js" type="module"></script> -->
 
-</head>
-<body>
+  </head>
+  <body>
+   <!--  <div class="dropdown-container">
+      Metal
+      <ul class="__ul-artist">
+        <li class="__li-artist">
+          Cardenales de Nuevo Leon
+          <ol class="__ol-songs">
+            <li class="__li-song">Que No Daria</li>
+            <li class="__li-song">10 Mi Complice</li>
+          </ol>
+        </li>
 
-    <div class="dropdown-container">
-         Metal
-        <ul class="__ul-artist">
-            <li> 
-                Cardenales de Nuevo Leon  
-                    <!-- <ol>
-                        <li>Que No Daria</li>
-                        <li>10 Mi Complice</li>
-                    </ol>   -->
-            </li>
-            <li> 
-                Tu gfa
-                    <!-- <ol>
-                        <li>aria asd</li>
-                        <li>cvr rrwe</li>
-                    </ol>   -->
-            </li>
-        </ul>
-        
-    </div>
-    
-    <script src="index.js"></script>
+        <li class="__li-artist">
+          asdffews de Nuevo Leon
+          <ol class="__ol-songs">
+            <li class="__li-song">Que No Daria</li>
+            <li class="__li-song">10 Mi Complice</li>
+          </ol>
+        </li>
+      </ul>
+    </div> -->
+   <!--  <script>
+        const myListSong ={
+    metal:{
+        metallica:
+         ["The Four Horseman", "Dream No More",
+            "Orion", "Whiskey in the Jar"
+        ]
+        , 
+        disturbed:
+            ["Down With the Sickness", "Decadence",
+                "The Vengeful One" ,"Stricken"
+        ]
+        ,
+        rammstein:[
+            "Puppe","Mein Teil",
+            "Bestrafe Mich","Wollt Ihr Das Bett In Flammen Sehen"
+        ]
+        ,
+        timeTearsDown:[
+            "Time Tears Down","Chaos Inside",
+            "Function Or Perish", "Pulse of Dead"
+        ]
+
+
+    },
+    norteño:{
+        "Cardenales de Nuevo Leon":[
+            "Que No Daria","10 Mi Complice",
+            "De Norte A sur", "Belleza de Cantina"
+         ],
+         "Invasores de Nuevo Leon":[
+             "Imaginación","Moneda sin valor",
+             "Para ti mi amor", "Qué caso tiene"
+ 
+         ],
+         "Poder del Norte":[
+             "A ella", "Per me perdonas",
+             "Ni que valieras tanto", "Ultimas noticias"
+         ],
+         "Pesado":[
+             "Mi promesa","Dile",
+             "Mi primer amor v:","Ojala que te mueras v:"
+         ]
+ 
+ 
+     },
+     "Romantic Ballad":{
+         Emmanuel:[
+             "Todo Se Derrumbó","Quiero Dormir Cansado",
+             "Tengo Mucho Que Aprender De Ti","Insoportablemente Bella"
+         ],
+         "José José":[
+             "Tu primera vez","La vida pasa",
+             "Mientras lueve","Cosas imposibles"
+         ],
+         Saez:[
+             "Putains Vous M'aurez Plus","Jeune et con",
+             "Cigarrete", "J accuse"
+         ],
+         Caifanes:[
+             "Hasta Morir","Ayer Me Dijo Un Ave",
+             "Avientame","Quisiera Ser Alcohol"
+         ]
+     },
+    Electronic:{
+        OVERWERK:["Toccata","12:30","Canon", "Winter"],
+        Skrillex: [
+            "04 - Scary Monsters and Nice Sprites",
+            "02 Recess","Summit","Doompy Poomp"
+        ]
+    },
+    Cumbias:{
+        "Rayito Colombiano":[
+            "Muchachita Consentida","Al despertar",
+            "Te extramo tanto","Besar tu piel"
+        ],
+        "Angeles Azules":[
+            "Entrega de Amor", "El listón de tu pelo",
+            "Mis Sentimientos", "Doctor Psiquiatra"
+        ],
+
+    }
+ 
+}
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+
+    let body = document.getElementsByTagName("body")[0];
+
+    let myElements = new GenerateElements(myListSong,document);
+
+    body.appendChild(myElements);
+
+});
+    </script> -->
+   
+   
 </body>
 </html>

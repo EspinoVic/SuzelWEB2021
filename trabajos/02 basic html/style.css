@@ -15,27 +15,26 @@ body {
 
 .dropdown-container {
   max-height: 50px;
-  background-color: #4B9130;
+  background-color: #4b9130;
   border-radius: 5px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  /* justify-content: stretch; */
-  /* align-items: center; */
-  position: relative;
-  /* overflow: hidden; */
   padding: 12px;
-  margin: 1rem;
+  margin: 0.5rem;
   max-width: 50%;
   width: 50%;
   min-width: content;
   transition: filter 0.25s, max-height 0.25s;
 }
+.dropdown-container:hover {
+  filter: brightness(1.25);
+  cursor: pointer;
+  max-height: 1000px;
+}
 .dropdown-container .__ul-artist {
-  /* height:none; */
   max-height: 0;
   transition: max-height 0.15s ease-out;
-  background-color: red;
   overflow: hidden;
   margin: 0;
 }
@@ -43,8 +42,36 @@ body {
   max-height: 500px;
   transition: max-height 0.25s ease-in;
 }
-.dropdown-container:hover {
-  filter: brightness(1.25);
+
+.__li-artist {
+  background-color: #76276B;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 10px;
+  min-width: content;
+  width: 70%;
+  max-height: 50px;
+  transition: filter 0.25s, max-height 0.25s;
+}
+.__li-artist:hover {
+  /* filter: brightness(1.25); */
   cursor: pointer;
   max-height: 1000px;
+}
+.__li-artist .__ol-songs {
+  max-height: 0;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  margin: 0;
+}
+.__li-artist .__ol-songs .__li-song {
+  background-color: #A13646;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 12px;
+}
+.__li-artist:hover .__ol-songs {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
 }/*# sourceMappingURL=style.css.map */
