@@ -84,7 +84,7 @@ const myListSong ={
  
 }
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+/* document.addEventListener("DOMContentLoaded", function(event) {  */
 
     let body = document.getElementsByTagName("body")[0];
 
@@ -93,4 +93,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for(const currentGenreItem of elements)
         body.appendChild(currentGenreItem);
 
-});
+/* }); */

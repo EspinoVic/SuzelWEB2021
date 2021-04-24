@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>encuesta</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    <style>
+        
+
+
+ button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+  margin: 16px 0 0 0;
+}
+ button:hover{
+	background-color: #046193;
+}
+    </style>
+  </head>
+  <body>
+      <h1>Hola soy Victor Espino</h1>
+    <br />
+    <br />
+    <br />
+    <form id="asd" oninput=" 'Hola' + a.value+' de ' +b.value+'años'">
+        Escribe tu nombre: 
+        <input type="text" id="a"  ></input>
+        
+        
+          Escribe tu edad: 
+        <input type="text" id="b" ></input>
+        <output name="x" for="a b"></output>
+    
+    </form>
+
+    <br />
+    <br />
+    <br />
+     
+    <fieldset>
+        <legend>El formulario UwU:</legend>
+
+    <form action="#" method="post">    
+      <br />
+      1-Considera que es necesario para un desarrollador tener su propia
+      página de presentación?
+      
+        <input type="radio" name="edad" value="true" > Sí</input>
+        <input type="radio" name="edad" value="false" >No</input>  
+      <br />
+      <br />
+
+      2.- ¿Por qué razón lo considera de esa manera?:
+      <br />
+      <br />
+      <textarea type="textarea" name="archivo" ></textarea>     
+      
+      <br />
+      <br />
+
+      3. ¿Qué proyectos deberia contener como presentación? :
+      <br />
+      <input type="checkbox" name="proyectos_todos" /> Todos los del desarrollador
+      <br />
+      <input type="checkbox" name="proyectos_complejos" /> Los más complejos
+      <br />
+      <input type="checkbox" name="proyectos_gusta" /> Los que le gusten más al desarrollador
+      <br />
+      <label for="aspectoOtro">Otro</label>
+      <input list="otro-opt" type="text" name="aspectoOtro" />
+
+      <datalist id="otro-opt">
+        <option value="Mostrar alguno al azar">
+        <option value="Los ultimos 3">
+        
+    </datalist>
+      <br />
+      <br />
+      
+      4.¿Debería mostrar el código de esos proyecto? :
+      <input type="radio" name="showCode" value="true" /> sí
+      <input type="radio" name="showCode" value="false" /> No
+      
+      <br />
+       <br />
+
+      5.¿Por qué seria buena idea colocar una demo?
+      <select name="donde">
+          <optgroup label="Elija una opción">
+            <option>Para mostrar el funcionamiento a nivel de usuario</option>
+            <option>Cuanto más enseñe mejor</option>
+            <option>Todas la anteriores </option>
+          </optgroup>
+        
+      </select>
+
+      <button type="submit" >Enviar </button>
+     
+    </form>
+    </fieldset>
+  </body>
+</html>

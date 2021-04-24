@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vic</title>
+  </head>
+  <body>
+    <figcaption></figcaption>
+    <figure>
+      <summary></summary>
+    </figure>
+    <nav></nav>
+    <main>
+      <header class="main-info-section">
+        <img alt="Victor Espino Photo" src="./res/bg-infosection.png" />
+        <img src="./res/prof-pic.png" />
+        <h1>Victor Espino</h1>
+
+        <h3>
+          I'll <em>make</em> your <del>page</del>
+          <ins> <strong>websibte</strong> or <b>desktop app</b>!</ins>
+        </h3>
+        <br />
+        <div class="__technologies-container">
+          <span>
+            WEB
+            <ul>
+              <li>SASS and high CSS skills</li>
+              <li>React JS</li>
+              <li>Firebase Services</li>
+            </ul>
+          </span>
+          <span>
+            Desktop
+            <ul>
+              <li>Java 8</li>
+              <li>MySQL</li>
+            </ul>
+          </span>
+        </div>
+        <br />
+        <a href="#contact-section"> Contact me!</a>
+      </header>
+
+      <section class="projects-section">
+        <h2>Projects</h2>
+
+        <div style="background-color: #d14ce8" class="__project-container">
+          <img
+            class="project-sh"
+            style="width: 300px"
+            src="res/country_detail.png"
+          />
+          <article>
+            <h5>Country Info</h5>
+            <p>
+              Shows the information about a country chose by the user.
+              <br />Implements dark theme by switching button. <br />Responsive
+              by using GRID layout. <br />API Country used for this project.
+            </p>
+          </article>
+          <a href="https://countries-detail.web.app/" target="_blank">
+            <img src="res/icons/hiperlink.svg" />
+            Site
+          </a>
+          <br />
+          <a
+            href="https://github.com/VICODE-YT/countries-detail"
+            target="_blank"
+          >
+            <img src="res/icons/githublogo_white.png" />
+            Repository
+          </a>
+        </div>
+
+        <div style="background-color: #e8b74c" class="__project-container">
+          <img
+            class="project-sh"
+            style="width: 300px"
+            src="res/socialStats.png"
+          />
+          <h5>Social Media Statistics<sup>1</sup></h5>
+          <p>
+            Show all the statistics for a person's social media. It's suppose to
+            connect to API of each social media to get the information about the
+            accounts but site is static. <br />
+            Implements dark theme by switching button. <br />Responsive by using
+            flexbox layout.
+          </p>
+          <a href="https://socialmedia-227e1.web.app/" target="_blank">
+            <img src="res/icons/hiperlink.svg" />
+            Site
+          </a>
+          <br />
+          <a
+            href="https://github.com/VICODE-YT/Social-Media-Dashboard-theme-switch"
+            target="_blank"
+          >
+            <img src="res/icons/githublogo_white.png" />
+            Repository
+          </a>
+        </div>
+
+        <div style="background-color: #4cb5e8" class="__project-container">
+          <img class="project-sh" style="width: 300px" src="res/JobList.png" />
+          <h5>Job List</h5>
+          <p>
+            Basic nice page to show the current jobs availables to get into.
+          </p>
+          <a href="https://joblist-fea8c.web.app/" target="_blank">
+            <img src="res/icons/hiperlink.svg" />
+            Site
+          </a>
+          <br />
+          <a href="https://github.com/VICODE-YT/JobList" target="_blank">
+            <img src="res/icons/githublogo_white.png" />
+            Repository
+          </a>
+        </div>
+
+        <div style="background-color: #12ca8b" class="__project-container">
+          <img
+            class="project-sh"
+            style="width: 300px"
+            src="res/Fylo landing page.png"
+          />
+          <h5>Fylo Cloud Landing Page</h5>
+          <p>
+            Landing page for Fylo Cloud, it shows the service information about
+            the new cloud released by<i>
+              <mark
+                >Fylo<sub><small>®</small></sub></mark
+              ></i
+            >.
+          </p>
+          <a href="https://fylo-landing-page.web.app/" target="_blank">
+            <img src="res/icons/hiperlink.svg" />
+            Site
+          </a>
+          <br />
+          <a
+            href="https://github.com/VICODE-YT/Fylo-Dark-Theme-Landing-Page-Master"
+            target="_blank"
+          >
+            <img src="res/icons/githublogo_white.png" />
+            Repository
+          </a>
+        </div>
+      </section>
+
+      <section id="contact-section" class="contact-section">
+        <form action="#" method="#">
+          <h2>Get in touch</h2>
+          <fieldset>
+            <label for="name_input">Name</label>
+            <br />
+            <input type="text" name="name_input" />
+
+            <br />
+            <label for="email_input">Email</label>
+            <br />
+            <input type="text" name="email_input" />
+            <br />
+            <datalist id="subject_lists">
+              <option value="I need a websibte"></option>
+              <option value="I need a desktop app"></option>
+            </datalist>
+
+            <label for="subject_input">Subject</label>
+            <br />
+            <input type="text" name="subject_input" list="subject_lists" />
+            <br />
+
+            <label for="msg_input">Message or comment</label>
+            <br />
+            ​<textarea
+              id="txtArea"
+              name="msg_input"
+              rows="10"
+              cols="50"
+            ></textarea>
+            <br />
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <span>
+        <img src="./res/icons/githublogo_black.png" />
+        <a href="https://www.github.com/EspinoVic">@EspinoVic</a>
+      </span>
+      <span>
+        <img src="./res/icons/linkedin.svg" />
+        <a href="https://www.linkedin.com/vic-espino">@vic-espino</a>
+      </span>
+      <time datetime="2021-04-24 20:00"></time>
+    </footer>
+  </body>
+</html>
