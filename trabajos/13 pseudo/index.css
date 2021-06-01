@@ -1,0 +1,24 @@
+.pseudo-elemento{
+    background-color:darkmagenta;
+}
+.pseudo-elemento::after{
+    content:"Soy un After y no existo en el DOM";
+    background-color: red;
+}
+
+.pseudo-elemento::before{
+    content:"Soy un Before y no existo en el DOM";
+    background-color: blue;
+}
+
+.pseudo-clase{
+    background-color: crimson;
+}
+
+.pseudo-clase:hover{    
+    background-color: aqua
+}
+
+.pseudo-clase:active{ 
+    background-color:lightcoral;
+}

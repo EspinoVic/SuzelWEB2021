@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    
+}
+
+div > p{
+    font-size: 30px;
+}
+
+input[type="text"]{
+
+}
+
+article{
+    font-size: 25px;
+    color: #CCC;
+}

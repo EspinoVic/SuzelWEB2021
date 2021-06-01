@@ -1,0 +1,21 @@
+.a { background-color: red; }
+.b { background-color: #FF0000; }
+.c { background-color: RGB(255,0,0); }
+.d { background-color: HSL(0,100%,50%); }
+.e { background-color: red; opacity: 0.8; }
+.f { background-color: rgba(255, 0, 0, 0.8)}
+
+body {
+
+    
+    background-image: url("https://bit.ly/2slA7jo");
+    background-repeat: repeat-x; /* Repite el BG unicamente en el eje X */
+    background-repeat: repeat-y; /* Repite el BG unicamente en el eje Y */
+    background-repeat: no-repeat;/* Si la imagen cabe más de una vez, esta no se repetirá */
+    background-repeat: repeat; /* Si la imagen cabe más de una vez, esta se repetirá en el eje X y Y*/
+
+
+    background-attachment: fixed; /* El background quedará fijo y no se moverá al hacer scroll al contenedor */
+    background-attachment: scroll;/* El bakground se moverá con el scroll del contenedor */
+}
+

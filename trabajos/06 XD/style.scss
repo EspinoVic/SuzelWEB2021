@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+    
+}
+
+header{
+    background-image:url("./img/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    height: 600px;
+    section{
+        padding: 1rem;
+        border: 6px solid rgb(122, 201, 224);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        color: rgb(78, 198, 235);
+    }
+    .profile-img{
+        position: absolute;
+        /* transform: translateY(10%); */
+        bottom: -25%;
+    }
+}
+
+nav{
+    display: inline-block;
+    align-self: flex-end;
+    margin: 1rem;
+    
+    & > ul{
+        & >li{
+            padding: 16px;
+            display: inline;
+            & a{
+                font-weight: 600;
+                text-decoration: none;
+            }
+            & a:visited{
+                color: inherit;
+            }
+        }
+    }
+}
+
+
+.about-section{
+    /* background-color: rgb(69, 43, 187); */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 10rem;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFA200;
+    & > p{
+        color: #888888;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        font-size: 33px;
+    }
+}
+
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    & > h3{
+        font-size: 50px;
+        color: #23abea;
+    }
+    
+    & .grid-projects{
+        /* background-color: #FFA200; */
+        display:grid;
+        row-gap: 75px;
+        column-gap:75px;
+        grid-template-columns: repeat(auto-fit,265px);
+        /* background-color:coral; */
+        justify-content: center;
+        width: 100%;
+        & .__project-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: red; */
+            & > img{
+                border-radius:5px;
+                width: 265px;
+            } 
+            & .__project-link-container{
+                display: flex;
+                flex-direction: column;
+                margin-top: auto;
+                align-items: center;
+            }
+        }
+    }
+}
